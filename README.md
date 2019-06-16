@@ -6,8 +6,8 @@ Esto es lo que hemos instalado hasta el momento:
 - Visual Studio Code
 - GitHub
 - ConEmu
-<!-- -->
 
+## GitHub
 Estos son los pasos que seguimos para crear un proyecto y subir los cambios a GitHub:
 
 
@@ -21,4 +21,3 @@ Estos son los pasos que seguimos para crear un proyecto y subir los cambios a Gi
 - Hacer commit en tu repositorio local con *git commit -m "mensaje"*
 - Subir al repositorio remoto con *git push -u origin master*
 
-<!-- -->
