@@ -1,0 +1,50 @@
+SHORT CUTS 
+
+Ctrl n: nueva ventana
+ALT TAB: cambiar de ventanilla como un programador 
+Ctrl tab: cambiar pesta;a en una ventana
+flechitas: mover por letra 
+flechita mas control: mover por palabras 
+shift mas flechita: seleccionar 
+shift mas Ctrl mas flechita: sellecionar por palabra 
+Ctrl z: atras
+Ctrl Y: rehacer (adelante)
+Ctrl c: copiar
+Ctrl v: pegar
+Ctrl x: cortar
+Ctrl s: guardar 
+fn: funciones de iconitos chiquitos 
+Ctrl f: busqueda en la ventana
+alt shift: cambiar idioma
+alt shit flecha: duplicar linea
+alt flecha: mover la linea
+Ctrl D: buscar palabras iguales
+Alt + Z: quitar escrol horizontal (word wrap)
+Nombre de etiqueta + TAB: Completa la sintaxis (EMMET)
+
+
+CONCEPTOS
+
+HTML: Lenguaje de marcado (muestra donde estan las cosas en codigo) 
+    <div></div>
+CSS: hojas de estilos(le da dise;o a lo que html me dijo que existe)
+    selector {
+        propiedad: valor;
+        propiedad: valor;
+    }
+JAVA SCRIPT: programacion
+    
+SINTAXIS: Forma propia de escribir cada lenguaje
+
+Etiquetas HTML 
+
+ H1-H6 (titulares)
+<p> parrafos
+ <br/> espaciado
+ <b> negrita 
+ <strong> negrita y enfatisado 
+ <span> editar en ccs (seccion de texto)
+ <i> letra cursiva 
+<cite> citar a un autor
+<blockquote> mover texto citado hacia la derecha  
+<hr/> linea separadora 
