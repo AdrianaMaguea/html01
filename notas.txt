@@ -21,6 +21,7 @@ alt flecha: mover la linea
 Ctrl D: buscar palabras iguales
 Alt + Z: quitar escrol horizontal (word wrap)
 Nombre de etiqueta + TAB: Completa la sintaxis (EMMET)
+<!-- para comentar algo que no se debe tener en cuenta -->
 
 
 CONCEPTOS
@@ -48,3 +49,16 @@ Etiquetas HTML
 <cite> citar a un autor
 <blockquote> mover texto citado hacia la derecha  
 <hr/> linea separadora 
+<a href=""> agrega enlaces (dentro de "" el link del sitio web y en medio nombre de la funcion)
+
+
+
+
+NOTAS
+ENLACES 
+
+Al momento de colocar un enlace hay rutas absolutas (por ejempo google.com)
+y tambien hay rutas relativas (por dentro de nuestra pag web) (imagenes/glitter.jpg)
+utilizar el atributo <a (target="_blank") href="https://www.google.com/">Ir a Google</a> para que se habra en una pestaña diferente
+<script src="archivo.js"></script> link para agregarle src (ejecutar codigo javascrip y no ensuciar todo el codigo html)
+link: favicon para colocar logo en la pestaña 
