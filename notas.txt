@@ -82,3 +82,17 @@ ESTRUCTURA
 
 <div> para imagenes (division)
 Dar tamaños con CSS
+<article> articulo hara que el navegador le de importacia 
+section class="main" encierra el contenido principal 
+<Section class="wrapper"> contenedor 
+</aside> contenido secundario (publicidad, imagenes, etc)
+ <footer> pie de pagina 
+Section: seccion de pagina
+NAV menu
+
+NOTAS
+METADATOS
+
+Descripcion de mi sitio web a google para posicionarlo dependiendo de lo que busquen los usuarios
+
+content 150 caracteres de descripcion 
