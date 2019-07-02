@@ -50,8 +50,10 @@ Etiquetas HTML
 <blockquote> mover texto citado hacia la derecha  
 <hr/> linea separadora 
 <a href=""> agrega enlaces (dentro de "" el link del sitio web y en medio nombre de la funcion)
-
-
+<img src="imagenes/glitter.jpg" width="400" height="300"/> para agregar una imagen y proporciones
+alt="Imagen Glitter" Texto alternativo (descripcion)
+<tr> Fila 
+<td> columna
 
 
 NOTAS
@@ -62,3 +64,21 @@ y tambien hay rutas relativas (por dentro de nuestra pag web) (imagenes/glitter.
 utilizar el atributo <a (target="_blank") href="https://www.google.com/">Ir a Google</a> para que se habra en una pestaña diferente
 <script src="archivo.js"></script> link para agregarle src (ejecutar codigo javascrip y no ensuciar todo el codigo html)
 link: favicon para colocar logo en la pestaña 
+
+NOTAS 
+FORMULARIOS 
+
+Utilizar etiqueta <form> para empezar un formulario 
+ Etiqueta <input> para abrir un caja de texo
+ Atributo TYPE para decir que tipo de entrada queremos tener (ejemplo: TEXT) 
+ Atributo PLACEHOLDER para mostrar un texto predeterminado dentro de la caja pero que se borre automaticamente al empezar a escribir 
+ Atributo MAXLENGTH numero de caracter maximo que queremos en nuestra caja 
+ Atributo NAME para decir al navegador que estamos pidiendo el nombre 
+ Atributo ID para al momento de ponerle nombre a la caja con la etiqueta <label for> decirle que ese texo es correpondiente a ese input llamado "nombre" 
+ (el puntero al momento de clicar el nombre de la caja nos lleva a la caja de texo) 
+
+NOTAS 
+ESTRUCTURA
+
+<div> para imagenes (division)
+Dar tamaños con CSS
