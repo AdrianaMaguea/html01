@@ -1,0 +1,20 @@
+REGLAS CSS
+
+Es todo el conjunto de grupos para darle estilos a un elementos 
+
+Selector: Body (todo el documento) Propiedad: Background (especificamente que queremos cambiar del documento ejem: Fondo)
+
+SELECTORES
+
+Antes del Corchete la etiqueta de HTML
+
+* (selector universarl) nos permite cambiar absolutamente todos los elementos 
+unicas reglas: MARGIN Y PADDING
+
+Selector de etiqueta 
+Ejem: h2 o seleccinar varias etiquetas con , es decir h1, h2, h3 etc
+
+Selectores desendentes 
+seleccinar elementos especificos dentro de una etiqueta ejem 
+P SPAN {} 
+seleccinar SPAN que esta dentro del P 
