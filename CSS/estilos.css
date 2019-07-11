@@ -1,25 +1,12 @@
-body {
-    background: #e498b8;  
-    color: #fff;
+div {
+    background: #cccccc;
+    width: 800px;
+
 }
 
-h2 {
-    color: #62a;
-    font-size: 20px;
-}
 
-h3 {
-    font-size: 40px;
-}
+img {
+    height: auto;
+    width: 100%;
 
-p {
-    color: #000;
-}
-
-p span { 
-    font-size: 30px;
-}
-
-p .imp {
-    color: #62a;
 }

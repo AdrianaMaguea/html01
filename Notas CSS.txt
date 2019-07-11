@@ -18,3 +18,116 @@ Selectores desendentes
 seleccinar elementos especificos dentro de una etiqueta ejem 
 P SPAN {} 
 seleccinar SPAN que esta dentro del P 
+
+UNIDADES DE MEDIDA
+
+px unidad relativa (no dinamico)
+cm, mm, in absolutas (ya no se utilizan)
+1em corresponde al numero de pixeles que se coloque en el font-size del body o el ultimo determinado (o 16px por defecto)
+% cajas
+REM siempre se regira por el font-size del body sin importar cuantas unidades px haya en el codigo
+
+UNIDADES DE COLOR
+
+17 palabras claves que se pueden utilizar para dar color en css: aqua, black, blue, fuchsia, gray, green, lime, maroon, navy, olive, orange, purple, red, silver, teal, white, yellow
+
+Color RGB con decimal (no practica) 
+ventajas: se pueden agregar tranparencia colocandote la letra a (alfa) RGBA(49,163,239,.50)
+1=100% 0=0% 
+
+Colores Exadecimales (fomar mas comun)
+
+Porcentajes
+
+MODELO DE CAJA 
+ 
+ Elementos en bloques (div) se extiendo a lo largo de toda la linea (por defecto) se puede cambiar asignandole width
+
+ Los elememtos linea no se extiende (solo lo necesario) no se les pueden agragar ancho ni largo a menos que se convierta en un elemento bloque linea (posicionamientos) 
+
+ margin y padding 
+ primer valor arriba y abajo, segundo valor a los lados
+ EJEMPLO
+ div {
+    width:500px;
+    color:aqua;
+    background:#EC2083;
+    margin:20px;
+    padding: 10px;
+    border: 5px solid #000;
+    display: inline-block;
+}
+
+FONDOS
+
+background: url(imagenes/glitter.jpg); (para agregar imagen de fondo)
+
+POSICIONAMIENTO DE CAJA
+
+Div por defecto van uno debajo del otro
+
+.caja_padre {
+    width: 500px;
+    height: 500px;
+    background: #000;
+    position: relative;
+}
+
+.caja {
+    position: absolute; 
+    top: 100px;
+    bottom:0;
+    right:0;
+    left:50px;
+} 
+
+si no se define una caja padre se movera dependiente del tamañano de la venta (si la posicion es fixed no se movera aunque se mueva el scroll)
+
+Float para diseño de columnas 
+
+TIPOGRAFIA 
+
+p {
+    color: #D84562;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    
+}
+
+tex-aling para centrar o mover (solo si es tipo bloque)
+
+line-height separacion entre lineas
+
+text-decoration para decorar el texo (quitar linea en enlaces :none; ) o colocarsela
+
+ text-transform: para colocar todo el texto en mayuscula o minuscula 
+
+ ENLACES 
+
+Text decoration none para eliminar raya 
+
+a:link para modificar el texto cuando aun no se ha visitado
+
+a:hover para modificar como se ve al pasarle al click por ensima (se puede utilizar para cualquier elemnto)
+
+a:active modificar que va a pasar cuando le de click
+
+a:visited modificar como se mostrara el enlace ya visitado
+
+utilizan simpre display pars cuando queremos convertir un bloque en un botton 
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+    background: blueviolet;
+    color: #ffffff;
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 10px 20px;
+    box-shadow: 0px 5px 0px  #c2b8b8
+
+IMAGENES 
+
+imagenes en css es mejor trabajarlas con porcentaje
+
